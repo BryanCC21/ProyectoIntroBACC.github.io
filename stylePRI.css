@@ -1,14 +1,33 @@
- h1 {
+ #Nombre21 h1 {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: #333;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             background-color: #fcefce;
             margin: 0px;
-            padding: 20px;
+            padding: 1px;
+            font-size: 42px;
         }
+
+#Nombre21 p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #333;
+            background-color: #fcefce;
+            margin: 0px;
+            padding: 1px;
+             font-size: 18px;
+}
+
+#Nombre21 h2 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #333;
+            background-color: #fcefce;
+            margin: 0px;
+            padding: 1px;
+            font-size: 28px;
+}
         
 header {
             background-color: #fcefce;
+            border: 2px solid #000000;
             padding: 20px;
             text-align: center;
             border-radius: 8px;
@@ -39,13 +58,15 @@ p {
 img {
             width: 550px;
             height: 410px;
-            border-radius: 35%;
-            margin-top: 17px;
+            border-radius: 37%;
+            margin: 0px;
+
         }
 
 .containerFotoSMI {
                 display: grid;
                 background-color: #fcefce;
+                border: 2px solid #000000;
                 grid-template-columns: 1fr 1fr;
                 grid-template-areas: 
                 "left right";
@@ -57,12 +78,12 @@ img {
 .containerSkills {
                 display: grid;
                 background-color: #fcefce;
+                border: 2px solid #000000;
                 grid-template-columns: 1fr 1fr;
                 grid-template-areas: 
                 "left right";
                 gap: 20px;
                 border-radius: 8px;
-
             }
 
 .sidebarLeft {
@@ -83,16 +104,27 @@ img {
         }
 
 
-.Mediotitulo { 
-        grid-area: titu;
-        background-color: #fcefce;
+.ProyectosCursos { 
+       
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: #333;
+         background-color: #fcefce;
+         border: 2px solid #000000;
         text-align: center;
         padding: 20px;
         border-radius: 8px;
-        
         }
+
+.ProyectosCursos h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #333;
+        background-color: #fff8e7;
+        border: 2px solid #000000;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding: 20px;
+        font-size: 28px;
+}
 
 a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -103,8 +135,84 @@ a {
 
 footer {
     background-color: #fcefce;
+    border: 2px solid #000000;
     padding: 20px;
     text-align: center;
     border-radius: 8px;
     margin-top: 20px;
 }
+
+.contactos {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff8e7;
+    border: 1px solid #000000;
+    color: #333;
+    margin: 20px;
+    
+}
+
+.HardSKILLS {
+    background-color: #fff8e7;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding:12px;
+    margin-bottom: 6px;
+}
+
+.SoftSKILLS{
+    background-color: #fff8e7;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 6px;
+}
+
+.containerProyectos {
+    display: grid;
+    background-color: #fcefce;
+    border: 2px solid #000000;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.fotop {
+    background-color: #fff8e7;
+    border: 2px solid #000000;
+    border-radius: 39%;
+    padding: 12px;
+}
+
+.sobremi {
+    background-color: #fff8e7;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.tarjeta {
+   background-color: #fff8e7;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.tarjeta img {
+    width: 200px;
+    height: 180px;
+    border-radius: 15%;
+    margin: 0px;
+}
+
+.tarjeta p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    font-size: 16px;
+    margin-top: 8px;
+    background-color: #fff8e7;
+
+}
+
